@@ -1,0 +1,20 @@
+{
+  "name": "diplomat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leo Liang <leoliang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc || true",
+    "test": "mocha --exit --trace-warnings -c \"build/test/**/*.js\""
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.115",
+    "@types/mocha": "^5.2.5",
+    "@types/request-promise-native": "^1.0.15",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
